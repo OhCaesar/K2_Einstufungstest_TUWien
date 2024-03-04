@@ -63,5 +63,43 @@ public class Main {
         System.out.println();
 
         ExampleTest2.printPattern(5,'*');
+
+
+
+        System.out.println("\n************* K2 PROBETEST 3 *************\n");
+
+        result = (short)ExampleTest3.getIntegerRoot(25);
+
+        test = "Blaukraut";
+
+        System.out.println("getIntegerRoots \n");
+
+        System.out.println(ExampleTest3.getIntegerRoot(144));
+        System.out.println(ExampleTest3.getIntegerRoot(13));
+        System.out.println(ExampleTest3.getIntegerRoot(1));
+
+        System.out.println("getThird \n");
+
+        System.out.println(ExampleTest3.getThird("toss","a","coin"));
+        System.out.println(ExampleTest3.getThird("Blaukraut","bleibt",test));
+        System.out.println(ExampleTest3.getThird("badger","badger","badger"));
+
+        System.out.println("replaceA \n");
+
+        System.out.println(ExampleTest3.replaceA("TU Wien"));
+        System.out.println(ExampleTest3.replaceA("Hubba bubba!"));
+        System.out.println(ExampleTest3.replaceA("aaaa"));
+
+        System.out.println("printBars \n");
+
+        ExampleTest3.printBars(2);
+        ExampleTest3.printBars(19);
+        ExampleTest3.printBars(20);
+        ExampleTest3.printBars(21);
+
+
+
+
+
     }
 }
